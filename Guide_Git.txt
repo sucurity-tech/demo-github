@@ -1,0 +1,25 @@
+B1: Download Git
+B2: Create Github account 
+B3: Config Git
+    - Check Git version: 
+        git --version
+    - Set your username for every repository (repo): 
+        git config --global user.name <your_name_here>
+    - Set youur email (Same email as your Github account): 
+        git config --global user.email <your_email@email.com>
+    - Check Git Config:
+        git config --list
+B4: Create a repo on Github and get the link of that repo
+B5: Create project (file or folder) in vscode
+B6: Start add your project on Github
+    - Create a Git repo in your PC: 
+        git init
+    - Check status of files or folders, ready files (green) and not ready files (red):
+        git status
+    - Add files to commit:
+        git add <your_files>
+        git status (again to check status of files)
+    - Start commit:
+        git commit -m "your_message"
+    - Check your activities:
+        git log
