@@ -30,9 +30,9 @@ B7: Start commit your projects to Github:
         git push -u origin master
 B8: Update existing projects:
     - prepare all projects:
-        git add.
+        git add .
     - Save this change in repo in your PC:
         git commit -m <your_message>
     - Push your project on Github:
-        gp (or git push)
+        gp (or git push) 
 
